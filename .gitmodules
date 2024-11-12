@@ -1,0 +1,6 @@
+[submodule "estimator/lattice-estimator"]
+	path = estimator/lattice-estimator
+	url = git@github.com:malb/lattice-estimator.git
+[submodule "estimator/rok-paper-sissors-estimator"]
+	path = estimator/rok-paper-sissors-estimator
+	url = git@github.com:russell-lai/rok-paper-sissors-estimator.git
