@@ -1,0 +1,185 @@
+[2024-11-10 11:37:09] a1
+[2024-11-10 11:37:09] PARAMS: MODULE: 21, TIME: 77824, CHUNKS: 38, Q: 4611686019232694273, CONDUCTOR: 24, RADIX: 21
+[2024-11-10 11:37:11] OK sage
+[2024-11-10 11:40:37] Time for execute_vdf: 196.66s
+[2024-11-10 11:40:43] Time for transpose & reshape: 6.68s
+[2024-11-10 11:40:45] Time for VDF squeeze challenge: 1.33s
+[2024-11-10 11:45:33] Time for parallel_dot_matrix_matrix (commitment): 288.16s
+[2024-11-10 11:46:02]   Time to transpose witness: 21.06s
+[2024-11-10 11:59:14]   Time to convolve rows: 792.25s
+[2024-11-10 11:59:57]   Time for square root decomposition: 42.65s
+[2024-11-10 12:00:04]   Time to get power_series_sub: 7.46s
+[2024-11-10 12:10:25]   Time to compute new RHS: 620.76s
+[2024-11-10 12:10:55] Time for norm_1: 1514.09s
+[2024-11-10 12:10:56] Time for norm_challenge: 1.16s
+[2024-11-10 12:11:00] 2666496, 2666496
+[2024-11-10 12:16:15] Time for norm_2: 319.12s
+[2024-11-10 12:16:15] 97 114 4 114
+[2024-11-10 12:16:15] Time for verify_norm_2: 1.98ms
+[2024-11-10 12:18:14]  Splitting 2048 chunks
+[2024-11-10 12:18:14]  Precisely 2666496 
+[2024-11-10 12:18:19]  into 1024 0 1024 chunks
+[2024-11-10 12:18:19]  precisely 1333248 0 1333248 chunks
+[2024-11-10 12:35:02] Time for split: 1127.12s
+[2024-11-10 12:35:02]   Time to compute initial parameters: 39.00ns
+[2024-11-10 12:35:02]   Time to extract left and right columns from RHS: 1.85ms
+[2024-11-10 12:35:02]   Time to compute the center commitment: 37.00ns
+[2024-11-10 12:35:02]   Time to compute the multiplier: 391.03µs
+[2024-11-10 12:35:02]   Time for row-wise tensor product: 2.64ms
+[2024-11-10 12:35:02]   Time to combine results and verify the commitment: 1.97ms
+[2024-11-10 12:35:02] Time for verify_split: 8.19ms
+[2024-11-10 12:35:02] Time for challenge fold: 647.75µs
+[2024-11-10 12:39:33] Time for fold: 270.40s
+[2024-11-10 12:39:33] Time for fold verifier: 29.55ms
+[2024-11-10 12:39:40]   Time to transpose witness: 4.50s
+[2024-11-10 12:46:09]   Time to convolve rows: 389.12s
+[2024-11-10 12:46:26]   Time for square root decomposition: 17.26s
+[2024-11-10 12:46:31]   Time to get power_series_sub: 4.32s
+[2024-11-10 12:51:53]   Time to compute new RHS: 322.23s
+[2024-11-10 12:52:08] Time for norm_1: 751.98s
+[2024-11-10 12:52:09] Time for norm_challenge: 1.16s
+[2024-11-10 12:52:11] 1333248, 1333248
+[2024-11-10 12:54:41] Time for norm_2: 152.75s
+[2024-11-10 12:54:41] 101 114 3 114
+[2024-11-10 12:54:41] Time for verify_norm_2: 1.77ms
+[2024-11-10 12:54:43]  Splitting 1024 chunks
+[2024-11-10 12:54:43]  Precisely 1333248 
+[2024-11-10 12:54:45]  into 512 0 512 chunks
+[2024-11-10 12:54:45]  precisely 666624 0 666624 chunks
+[2024-11-10 13:04:29] Time for split: 587.89s
+[2024-11-10 13:04:29]   Time to compute initial parameters: 40.00ns
+[2024-11-10 13:04:29]   Time to extract left and right columns from RHS: 954.34µs
+[2024-11-10 13:04:29]   Time to compute the center commitment: 32.00ns
+[2024-11-10 13:04:29]   Time to compute the multiplier: 656.46µs
+[2024-11-10 13:04:29]   Time for row-wise tensor product: 2.19ms
+[2024-11-10 13:04:29]   Time to combine results and verify the commitment: 1.68ms
+[2024-11-10 13:04:29] Time for verify_split: 6.20ms
+[2024-11-10 13:04:29] Time for challenge fold: 733.80µs
+[2024-11-10 13:06:43] Time for fold: 133.53s
+[2024-11-10 13:06:43] Time for fold verifier: 29.35ms
+[2024-11-10 13:06:45]   Time to transpose witness: 839.79ms
+[2024-11-10 13:09:43]   Time to convolve rows: 178.07s
+[2024-11-10 13:09:52]   Time for square root decomposition: 8.23s
+[2024-11-10 13:09:54]   Time to get power_series_sub: 2.44s
+[2024-11-10 13:12:37]   Time to compute new RHS: 162.51s
+[2024-11-10 13:12:40] Time for norm_1: 355.31s
+[2024-11-10 13:12:41] Time for norm_challenge: 1.15s
+[2024-11-10 13:12:42] 666624, 666624
+[2024-11-10 13:14:02] Time for norm_2: 80.61s
+[2024-11-10 13:14:02] 104 114 3 114
+[2024-11-10 13:14:02] Time for verify_norm_2: 1.02ms
+[2024-11-10 13:14:12]  Splitting 512 chunks
+[2024-11-10 13:14:12]  Precisely 666624 
+[2024-11-10 13:14:13]  into 256 0 256 chunks
+[2024-11-10 13:14:13]  precisely 333312 0 333312 chunks
+[2024-11-10 13:18:45] Time for split: 283.63s
+[2024-11-10 13:18:45]   Time to compute initial parameters: 38.00ns
+[2024-11-10 13:18:45]   Time to extract left and right columns from RHS: 473.76µs
+[2024-11-10 13:18:45]   Time to compute the center commitment: 30.00ns
+[2024-11-10 13:18:45]   Time to compute the multiplier: 416.02µs
+[2024-11-10 13:18:45]   Time for row-wise tensor product: 1.81ms
+[2024-11-10 13:18:45]   Time to combine results and verify the commitment: 842.23µs
+[2024-11-10 13:18:45] Time for verify_split: 4.26ms
+[2024-11-10 13:18:45] Time for challenge fold: 703.32µs
+[2024-11-10 13:19:51] Time for fold: 66.01s
+[2024-11-10 13:19:51] Time for fold verifier: 29.29ms
+[2024-11-10 13:19:52]   Time to calculate max_inf_norm_witness: 101.16ms
+[2024-11-10 13:19:52]   Time to calculate parts: 11.76µs
+[2024-11-10 13:19:52]   Time to transpose witness: 237.45ms
+[2024-11-10 13:19:53]   Time to decompose columns: 1.21s
+[2024-11-10 13:20:11]   Time to zip columns horizontally: 17.61s
+[2024-11-10 13:20:12]   Time to extract relevant columns from power series: 896.92ms
+[2024-11-10 13:28:01]   Time to compute RHS matrix: 468.86s
+[2024-11-10 13:28:05] Time for b_decomp: 493.28s
+[2024-11-10 13:28:06] Time for verify_bdecomp: 559.12ms
+[2024-11-10 13:36:23]   Time to transpose witness: 8.62s
+[2024-11-10 13:46:45]   Time to convolve rows: 622.24s
+[2024-11-10 13:47:29]   Time for square root decomposition: 43.72s
+[2024-11-10 13:47:30]   Time to get power_series_sub: 1.92s
+[2024-11-10 14:03:47]   Time to compute new RHS: 976.98s
+[2024-11-10 14:04:28] Time for norm_1: 1694.04s
+[2024-11-10 14:04:29] Time for norm_challenge: 1.19s
+[2024-11-10 14:04:30] 333312, 333312
+[2024-11-10 14:11:16] Time for norm_2: 406.58s
+[2024-11-10 14:11:16] 107 1254 3 1254
+[2024-11-10 14:11:16] Time for verify_norm_2: 14.03ms
+[2024-11-10 14:11:33]  Splitting 256 chunks
+[2024-11-10 14:11:33]  Precisely 333312 
+[2024-11-10 14:11:37]  into 128 0 128 chunks
+[2024-11-10 14:11:37]  precisely 166656 0 166656 chunks
+[2024-11-10 14:37:14] Time for split: 1558.23s
+[2024-11-10 14:37:14]   Time to compute initial parameters: 114.00ns
+[2024-11-10 14:37:14]   Time to extract left and right columns from RHS: 19.94ms
+[2024-11-10 14:37:14]   Time to compute the center commitment: 30.00ns
+[2024-11-10 14:37:14]   Time to compute the multiplier: 705.09µs
+[2024-11-10 14:37:14]   Time for row-wise tensor product: 6.19ms
+[2024-11-10 14:37:14]   Time to combine results and verify the commitment: 11.88ms
+[2024-11-10 14:37:14] Time for verify_split: 52.62ms
+[2024-11-10 14:37:14] Time for challenge fold: 6.94ms
+[2024-11-10 14:43:17] Time for fold: 362.48s
+[2024-11-10 14:43:17] Time for fold verifier: 316.71ms
+[2024-11-10 14:43:18]   Time to transpose witness: 543.38ms
+[2024-11-10 14:43:57]   Time to convolve rows: 39.12s
+[2024-11-10 14:43:59]   Time for square root decomposition: 1.99s
+[2024-11-10 14:44:00]   Time to get power_series_sub: 834.70ms
+[2024-11-10 14:44:54]   Time to compute new RHS: 53.96s
+[2024-11-10 14:44:54] Time for norm_1: 97.08s
+[2024-11-10 14:44:55] Time for norm_challenge: 1.16s
+[2024-11-10 14:44:56] 166656, 166656
+[2024-11-10 14:45:22] Time for norm_2: 26.97s
+[2024-11-10 14:45:22] 110 114 3 114
+[2024-11-10 14:45:22] Time for verify_norm_2: 1.01ms
+[2024-11-10 14:45:23]  Splitting 128 chunks
+[2024-11-10 14:45:23]  Precisely 166656 
+[2024-11-10 14:45:23]  into 64 0 64 chunks
+[2024-11-10 14:45:23]  precisely 83328 0 83328 chunks
+[2024-11-10 14:46:32] Time for split: 69.95s
+[2024-11-10 14:46:32]   Time to compute initial parameters: 113.00ns
+[2024-11-10 14:46:32]   Time to extract left and right columns from RHS: 583.76µs
+[2024-11-10 14:46:32]   Time to compute the center commitment: 36.00ns
+[2024-11-10 14:46:32]   Time to compute the multiplier: 468.17µs
+[2024-11-10 14:46:32]   Time for row-wise tensor product: 1.67ms
+[2024-11-10 14:46:32]   Time to combine results and verify the commitment: 900.27µs
+[2024-11-10 14:46:32] Time for verify_split: 4.35ms
+[2024-11-10 14:46:32] Time for challenge fold: 696.42µs
+[2024-11-10 14:46:49] Time for fold: 16.53s
+[2024-11-10 14:46:49] Time for fold verifier: 31.81ms
+[2024-11-10 14:46:51]   Time to calculate max_inf_norm_witness: 11.81ms
+[2024-11-10 14:46:51]   Time to calculate parts: 2.12µs
+[2024-11-10 14:46:51]   Time to transpose witness: 71.63ms
+[2024-11-10 14:46:51]   Time to decompose columns: 200.23ms
+[2024-11-10 14:46:54]   Time to zip columns horizontally: 3.58s
+[2024-11-10 14:46:54]   Time to extract relevant columns from power series: 128.33ms
+[2024-11-10 14:49:21]   Time to compute RHS matrix: 146.17s
+[2024-11-10 14:49:21] Time for b_decomp: 150.48s
+[2024-11-10 14:49:22] Time for verify_bdecomp: 577.65ms
+[2024-11-10 14:51:32]   Time to transpose witness: 2.02s
+[2024-11-10 14:53:36]   Time to convolve rows: 124.19s
+[2024-11-10 14:53:46]   Time for square root decomposition: 9.96s
+[2024-11-10 14:53:47]   Time to get power_series_sub: 816.12ms
+[2024-11-10 14:57:53]   Time to compute new RHS: 246.41s
+[2024-11-10 14:57:59] Time for norm_1: 389.80s
+[2024-11-10 14:58:00] Time for norm_challenge: 1.16s
+[2024-11-10 14:58:01] 83328, 83328
+[2024-11-10 14:59:38] Time for norm_2: 97.53s
+[2024-11-10 14:59:38] 113 1254 3 1254
+[2024-11-10 14:59:38] Time for verify_norm_2: 5.87ms
+[2024-11-10 14:59:41]  Splitting 64 chunks
+[2024-11-10 14:59:41]  Precisely 83328 
+[2024-11-10 14:59:43]  into 32 0 32 chunks
+[2024-11-10 14:59:43]  precisely 41664 0 41664 chunks
+[2024-11-10 15:05:49] Time for split: 370.59s
+[2024-11-10 15:05:49]   Time to compute initial parameters: 98.00ns
+[2024-11-10 15:05:49]   Time to extract left and right columns from RHS: 4.42ms
+[2024-11-10 15:05:49]   Time to compute the center commitment: 36.00ns
+[2024-11-10 15:05:49]   Time to compute the multiplier: 461.98µs
+[2024-11-10 15:05:49]   Time for row-wise tensor product: 5.41ms
+[2024-11-10 15:05:49]   Time to combine results and verify the commitment: 5.30ms
+[2024-11-10 15:05:49] Time for verify_split: 21.18ms
+[2024-11-10 15:05:49] Time for challenge fold: 7.07ms
+[2024-11-10 15:07:13] Time for fold: 84.19s
+[2024-11-10 15:07:13] Time for fold verifier: 342.80ms
+[2024-11-10 15:07:19] Time for final assert_eq: 5.64s
+[2024-11-10 15:07:19] VDF: 196.66s
+[2024-11-10 15:07:19] PRV: 11755.02s
+[2024-11-10 15:07:19] VER: 16.00s
